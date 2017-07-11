@@ -1,0 +1,132 @@
+* {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+#logo {
+  height: 50px;
+  margin: 10px;
+}
+
+#header_nav {
+  margin-right: 10px;
+  font-size: 22px;
+}
+
+.navlink {
+  margin: 20px 10px 10px 10px;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+#main_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#Mission {
+  display: flex;
+  height: 700px;
+  background-image: url("../Media/background_main.jpg");
+  background-repeat: no-repeat;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+#Mission_banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 1200px;
+  height: 100px;
+}
+
+#Featured_Teas {
+  display: flex;
+  width: 1000px;
+  margin: 50px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#Featured_headline {
+  width: 1000px;
+  margin: 20px;
+  text-align: center;
+}
+
+#Featured_Teas img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.Featured_item {
+  margin: 5px;
+  text-align: center;
+}
+
+#locations {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url("../Media/locations_background.jpg");
+  height: 500px;
+  width: 1200px;
+}
+
+#locations h1 {
+  position: absolute;
+  background-color: transparent;
+  margin-top: 75px;
+}
+
+#locations_banner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Location {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  margin: 100px 20px 0px 20px;
+  font-size: 22px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer {
+  width: 100%;
+}
+
+#footer_contact {
+  height: 200px;
+  text-align: center;
+  padding: 100px;
+}
+
+#footer_tagline {
+  width: 100%;
+  text-align: left;
+  margin: 0px 0px 40px 20px;
+}
